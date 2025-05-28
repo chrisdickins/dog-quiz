@@ -2,11 +2,9 @@ body {
     background-color: #f5e1da; /* Soft warm color, like a cozy dog bed */
     font-family: 'Comic Sans MS', cursive, sans-serif; /* Playful font */
     text-align: center;
-    body {
     background-image: url('https://example.com/flower-background.jpg'); /* Replace with a real image URL */
     background-size: cover;
     background-repeat: no-repeat;
-}
 }
 
 h1 {
