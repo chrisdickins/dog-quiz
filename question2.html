@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Quiz - Question 2</title>
+    <script>
+        function checkAnswer() {
+            const userAnswer = document.getElementById("answer").value.toLowerCase();
+            const correctAnswer = "rupert"; // Correct answer for question 2
+            
+            if (userAnswer === correctAnswer) {
+                alert("Hurrah, dog luvvah!"); // Success message
+            } else {
+                alert("Try again!"); // Error message
+            }
+        }
+    </script>
+</head>
+<body>
+    <h1>What's the name of my black dog?</h1>
+    <input type="text" id="answer" placeholder="Type your answer here">
+    <button onclick="checkAnswer()">Submit</button>
+</body>
+</html>
